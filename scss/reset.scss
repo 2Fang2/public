@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
+ul, li{
+    list-style: none;
+}
+.text-c {
+    text-align: center;
+}
+.d-flex {
+    display: flex;
+}
+.d-flex-aic {
+    align-items: center;
+}
+.d-flex-jcc {
+    justify-content: center;
+}
+.d-flex-jcsb {
+    justify-content: space-between;
+}

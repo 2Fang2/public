@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+    <link rel="stylesheet" href="scss/reset.scss">
+    <link rel="stylesheet" href="scss/main.scss">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <a href="./index.html" class="logo">STUDBUD</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/home (1).png" class="icon1" alt="">
+                                <img src="images/home.png" class="icon2" alt="">
+                            </div>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="calendar.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/calendar.png" class="icon1" alt="">
+                                <img src="images/calendar (1).png" class="icon2" alt="">
+                            </div>
+                            Calendar
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="readinglist.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/reading.png" class="icon1" alt="">
+                                <img src="images/reading (1).png" class="icon2" alt="">
+                            </div>
+                            Reading list
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tools.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/tool.png" class="icon1" alt="">
+                                <img src="images/tool (1).png" class="icon2" alt="">
+                            </div>
+                            Tools
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <a href="" class="d-flex">
+                    <img src="images/logout (1).png" class="logout-img1" alt="">
+                    <img src="images/logout.png" class="logout-img2" alt="">
+                    logout
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="toolbar d-flex d-flex-aic d-flex-jcsb">
+                <span class="page-title">Home</span>
+                <form action="" class="d-flex d-flex-aic d-flex-jcsb">
+                    <input type="text" placeholder="Search">
+                    <button></button>
+                </form>
+                <div class="info d-flex d-flex-aic d-flex-jcsb">
+                    <img src="images/portrait.png" alt="">
+                    <span>Emily</span>
+                </div>
+            </div>
+            <div class="content readinglist">
+                <div class="transparency">
+                    <div class="readinglist-top d-flex d-flex-jcsb d-flex-aic">
+                        <div class="readinglist-top-le">
+                            <input type="date" id="date">
+                            <button class="deleted">Delete</button>
+                            <button class="edit">Edit</button>
+                        </div>
+                        <div class="readinglist-top-re">
+                            <button class="save">Save</button>
+                            <button class="open">Open</button>
+                        </div>
+                    </div>
+                    <div class="readinglist-content">
+                        <p>Reading list</p>
+                        <div id="list">
+                            <ul>
+                                <li>
+                                    <input type="checkbox">
+                                    <a href="https://www.history.com/news">https://www.history.com/news</a>
+                                    <span class="del-item">x</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <a href="https://www.history.com/news">https://www.history.com/news</a>
+                                    <span class="del-item">x</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="addList">
+                            <a href="javascript:;" class="d-flex d-flex-aic" id="addList">
+                                + Add
+                                <div class="arrow"></div>
+                            </a>
+                        </div>
+                        <div class="readinglist-form">
+                            <textarea name="linkseg" id="linkseg"
+                                placeholder="e.g.https://www.skillsyouneed.com/ps/time-management.html"></textarea>
+                            <button class="addLink">Add link</button>
+                            <button class="cancel">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./js/readinglist.js"></script>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+    <link rel="stylesheet" href="scss/reset.scss">
+    <link rel="stylesheet" href="scss/main.scss">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <a href="./index.html" class="logo">STUDBUD</a>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="index.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/home (1).png" class="icon1" alt="">
+                                <img src="images/home.png" class="icon2" alt="">
+                            </div>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="calendar.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/calendar.png" class="icon1" alt="">
+                                <img src="images/calendar (1).png" class="icon2" alt="">
+                            </div>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="readinglist.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/reading.png" class="icon1" alt="">
+                                <img src="images/reading (1).png" class="icon2" alt="">
+                            </div>
+                            Reading list
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tools.html" class="d-flex d-flex-aic">
+                            <div class="icon">
+                                <img src="images/tool.png" class="icon1" alt="">
+                                <img src="images/tool (1).png" class="icon2" alt="">
+                            </div>
+                            Tools
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <a href="" class="d-flex">
+                    <img src="images/logout (1).png" class="logout-img1" alt="">
+                    <img src="images/logout.png" class="logout-img2" alt="">
+                    logout
+                </a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="toolbar d-flex d-flex-aic d-flex-jcsb">
+                <span class="page-title">Home</span>
+                <form action="" class="d-flex d-flex-aic d-flex-jcsb">
+                    <input type="text" placeholder="Search">
+                    <button></button>
+                </form>
+                <div class="info d-flex d-flex-aic d-flex-jcsb">
+                    <img src="images/portrait.png" alt="">
+                    <span>Emily</span>
+                </div>
+            </div>
+            <div class="content">
+                <div class="time-task d-flex d-flex-aic d-flex-jcsb">
+                    <div class="time text-c">
+                        <p class="todayTime"></p>
+                        <p>welcome back to Studbud</p>
+                    </div>
+                    <div class="today-task">
+                        <div class="table-head d-flex d-flex-aic d-flex-jcsb">
+                            <span>Today's task</span>
+                            <span>Status</span>
+                            <span>Due date</span>
+                        </div>
+                        <div class="table-body">
+                            <div class="table-row d-flex d-flex-aic d-flex-jcsb">
+                                <div class="table-icon d-flex d-flex-aic">
+                                    <img src="images/success.png" alt="">
+                                    <span>Writing essay for history </span>
+                                </div>
+                                <div class="table-status">
+                                    <span class="status text-c doing">Doing</span>
+                                </div>
+                                <div class="table-date">
+                                    <span class="date text-c">May 12</span>
+                                </div>
+                            </div>
+                            <div class="table-row d-flex d-flex-aic d-flex-jcsb">
+                                <div class="table-icon d-flex d-flex-aic">
+                                    <img src="images/success.png" alt="">
+                                    <span>Writing essay for history </span>
+                                </div>
+                                <div class="table-status">
+                                    <span class="status text-c notdone">Not done</span>
+                                </div>
+                                <div class="table-date">
+                                    <span class="date">May 12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="js/index.js"></script>
+
+</html>
